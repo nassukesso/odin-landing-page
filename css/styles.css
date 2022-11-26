@@ -18,6 +18,7 @@ body {
   font-family: Roboto, sans-serif;
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
 }
 
 header {
@@ -40,4 +41,11 @@ header {
 .menu-links {
   display: flex;
   gap: 1.5rem;
+}
+
+footer {
+  padding: 1.5rem;
+  text-align: center;
+  color: #bbb;
+  background-color: #1F2937;
 }

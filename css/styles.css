@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;0,900;1,300&display=swap');
 
 ul {
   list-style-type: none;
@@ -8,13 +8,13 @@ ul {
 
 a {
   text-decoration: none;
-  color: #bbb;
+  color: #e5e7eb;
+  font-size: 18px;
 }
 
 body {
   height: 100vh;
   margin: 0;
-  overflow: hidden;
   font-family: Roboto, sans-serif;
   display: flex;
   flex-direction: column;
@@ -22,7 +22,7 @@ body {
 }
 
 header {
-  padding: 0.5rem 10vw;
+  padding: 1rem 10vw;
   background-color: #1F2937;
   display: flex;
   justify-content: space-between;
@@ -31,11 +31,9 @@ header {
 }
 
 .logo {
-  width: 12rem;
-  height: 2rem;
-  background-color: pink;
-  padding: 8px 8px 4px;
-  border-radius: 3px;
+  font-weight: bold;
+  font-size: 24px;
+  color: #f9faf8;
 }
 
 .menu-links {
@@ -48,4 +46,116 @@ footer {
   text-align: center;
   color: #bbb;
   background-color: #1F2937;
+}
+
+.main {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.hero {
+  padding: 5rem 10vw;
+  background-color: #1F2937;
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+}
+
+.hero h1 {
+  margin: 0;
+  font-size: 48px;
+  font-weight: extra-bold;
+  color: #f9faf8;
+}
+
+.hero p {
+  margin: 0 0 1rem;
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+.hero button {
+  padding: 0.5rem 2rem;
+  font-size: 18px;
+  background-color: #3882f6;
+  color: white;
+  border: 0;
+  border-radius: 5px;
+}
+
+.info {
+  padding: 0.5rem 10vw 5rem;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+.info h2 {
+  font-size: 36px;
+  font-weight: extra-bold;
+  color: #1F2937
+}
+
+.info-images {
+  display: flex;
+  gap: 2rem;
+}
+
+.info-images img {
+  border-radius: 5px;
+}
+
+.quote {
+  padding: 5rem 10vw;
+  background-color: #e5e7eb;
+}
+
+.quote p:first-child {
+  font-size: 36px;
+  font-weight: light;
+  font-style: italic;
+  color: #1F2937;
+}
+
+.attributed-to {
+  font-size: 20px;
+  font-weight: bold;
+  text-align: right;
+}
+
+.cta {
+  padding: 5rem 10vw;
+  width: 80vw;
+}
+
+.cta-frame {
+  border-radius: 5px;
+  padding: 3rem 6rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #3882f6;
+}
+
+.cta-frame h3 {
+  color: white;
+  margin: 0;
+}
+
+.cta-frame p {
+  color: #e5e7eb;
+  margin: 0;
+}
+
+.cta button {
+  padding: 0.5rem 2rem;
+  font-size: 18px;
+  background-color: #3882f6;
+  color: white;
+  border: 1px solid white;
+  border-radius: 5px;
 }
